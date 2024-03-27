@@ -1,0 +1,88 @@
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  color: white;
+}
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background-color: darkslategray;
+}
+.aboutContent {
+  margin-top: 2rem;
+}
+.aboutContent .heading {
+  color: white;
+}
+
+.aboutContent .aboutName {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 550;
+  margin-top: 3rem;
+}
+.aboutContent h3 {
+  margin-left: 35rem;
+  color: darksalmon;
+  margin-bottom: 1rem;
+}
+
+.aboutContent p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.aboutImage img {
+  width: 30vw;
+  height: 45vh;
+  margin-left: 2rem;
+  border: 0.3rem solid rgb(140, 162, 185);
+  border-radius: 50%;
+  box-shadow: 0 0 2rem white;
+}
+
+.knowMore {
+  display: inline-block;
+
+  border: 0.1rem solid black;
+  padding: 1rem;
+  background-color: darkcyan;
+  border-radius: 2rem;
+  box-shadow: 0 0 1.3rem white;
+  font-size: 1.2rem;
+  color: rgb(37, 12, 12);
+  font-weight: 600;
+  transition: 0.5s ease;
+  margin-top: 1.3rem;
+}
+.knowMore:hover {
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .aboutMe {
+    flex-direction: column;
+    gap: 0;
+  }
+  .aboutContent p {
+    font-size: 2rem;
+  }
+  .aboutContent h3 {
+    font-size: 1.8rem;
+  }
+
+  .aboutImage img {
+    margin-top: 3rem;
+    width: 50vw;
+  }
+
+  .knowMore {
+    margin-top: 2rem;
+    position: relative;
+    left: 50%;
+    right: 50%;
+  }
+}

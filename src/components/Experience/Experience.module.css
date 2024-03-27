@@ -1,0 +1,43 @@
+section {
+  background-color: cadetblue;
+}
+
+.heading {
+  margin-top:8rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+.experienceDetails {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  background-color: white;
+  color: black;
+  border: 0.2rem solid white;
+  padding: 2rem;
+  width: fit-content;
+}
+.experience {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+.experienceDetails:hover {
+  box-shadow: 0 0 1rem white;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    margin-top: 10rem;
+    font-size: 4rem;
+  }
+  .experienceDetails {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .experience {
+    line-height: 3rem;
+  }
+}

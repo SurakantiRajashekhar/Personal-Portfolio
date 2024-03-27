@@ -1,0 +1,111 @@
+.skills {
+  margin-top: 4rem;
+  gap: 2rem;
+  display: flex;
+}
+.skills h1 {
+  text-align: center;
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.technicalSkills {
+  margin-top: 1rem;
+  border: 0.2rem solid darkslategrey;
+  margin-left: 2rem;
+}
+.professionalSkills {
+  margin-top: 1rem;
+  border: 0.2rem solid darkslategrey;
+  margin-right: 1rem;
+}
+.professionalSkills span {
+  color: rgb(28, 18, 38);
+}
+.professionalSkills h3 {
+  margin: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.mySkills {
+  text-align: center;
+  padding: 1rem;
+}
+
+.mySkills p {
+  color: rgb(2, 20, 20);
+}
+
+.icons,
+.javascript,
+.jquery,
+.node {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.css,
+.bootstrap,
+.typescript,
+.java,
+.react {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  color: blue;
+  background-color: white;
+}
+
+.javascript {
+  color: rgb(134, 134, 11);
+  background-color: black;
+}
+
+.java,
+.jquery {
+  color: rgb(22, 126, 160);
+}
+
+.node {
+  color: green;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    flex-direction: column;
+  }
+
+  .technicalSkills {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .professionalSkills {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .professional {
+    font-size: 1.8rem;
+  }
+
+  .homeContent p {
+    font-size: 2.4rem;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .technical {
+    font-size: 1.8rem;
+  }
+}

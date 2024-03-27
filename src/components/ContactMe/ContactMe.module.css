@@ -1,0 +1,100 @@
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  margin-top: 1rem;
+}
+
+.contactDetails {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.contact {
+  display: flex;
+  margin-top: 1rem;
+}
+.contactInfoHeading {
+  text-align: center;
+}
+.info {
+  background-color: rgb(15, 72, 72);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.icon {
+  margin-top: 5px;
+}
+
+.icons {
+  margin-right: 317px;
+}
+
+.addressheading {
+  margin-right: 600px;
+}
+.contact .address h3 {
+  color: chocolate;
+}
+.data {
+  color: white;
+  margin-left: 15px;
+}
+.contactInfo {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.socialMediaLinks {
+  margin-top: 2rem;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.socialMediaLinks span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(23, 23, 36);
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0.1rem solid rgb(14, 35, 35);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  margin: 3.5rem 1.5rem 2rem 0;
+  transition: 0.5s ease;
+}
+.socialMediaLinks span:hover {
+  background-color: darkslategray;
+  box-shadow: 0 0 1rem white;
+}
+
+@media (max-width: 768px) {
+  .contactDetails {
+    flex-direction: column;
+  }
+  .contactInfo {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+  }
+  .contactDetails .socialMedia {
+    width: 100%;
+  }
+  .socialMediaLinks {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 4rem;
+  }
+  .socialMedia h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+}

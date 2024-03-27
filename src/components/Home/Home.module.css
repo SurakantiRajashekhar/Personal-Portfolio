@@ -1,0 +1,145 @@
+.home {
+  display: flex;
+  background-color: cadetblue;
+  margin-top: 8rem;
+}
+.homeContent {
+  margin-top: 6rem;
+  margin-right: 12rem;
+  margin-left: 5rem;
+}
+
+.homeContent h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.homeContent h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.homeContent h3:nth-of-type(2) {
+  margin-bottom: 2rem;
+}
+.homeContent h3 span {
+  color: burlywood;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.socialMedia span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(23, 23, 36);
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0.1rem solid rgb(14, 35, 35);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  margin: 3.5rem 1.5rem 2rem 0;
+  transition: 0.5s ease;
+}
+.socialMedia span:hover {
+  background-color: darkslategray;
+  box-shadow: 0 0 1rem white;
+}
+
+.resume {
+  display: inline-block;
+  border: 0.1rem solid black;
+  padding: 1rem;
+  background-color: darkcyan;
+  border-radius: 2rem;
+  box-shadow: 0 0 1.3rem white;
+  font-size: 1.2rem;
+  color: rgb(37, 12, 12);
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.resume:hover {
+  box-shadow: none;
+}
+
+.image img,
+.about-image img {
+  width: 30vw;
+  height: 45vh;
+  margin-left: 3rem;
+  margin-top: 6rem;
+  border: 0.3rem solid rgb(140, 162, 185);
+  border-radius: 50%;
+  box-shadow: 0 0 2rem white;
+}
+
+@media (max-width: 1341px) {
+  .homeContent h1 {
+    font-size: 2rem;
+  }
+
+  .homeContent h3 {
+    font-size: 1.5rem;
+  }
+
+  P {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1039px) {
+  .homeContent h1 {
+    font-size: 1.6rem;
+  }
+
+  .homeContent h3 {
+    font-size: 1rem;
+  }
+
+  .image img {
+    height: 40vh;
+    width: 40vw;
+  }
+
+  P {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    width: fit-content;
+  }
+
+  .home {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homeContent h1 {
+    font-size: 3rem;
+  }
+  .homeContent h3 {
+    font-size: 2.5rem;
+  }
+  .image img {
+    width: 100vw;
+    height: 70vh;
+  }
+  .home-content {
+    margin-left: 5rem;
+  }
+
+  .home-content p {
+    font-size: 2.3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+}
